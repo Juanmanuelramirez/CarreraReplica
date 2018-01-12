@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -371,10 +371,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e2dc8ebf4854843a2c63065f064ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheCar: {fileID: 0}
+  TheCar: {fileID: 1920090650}
   CarX: 0
   CarY: 0
   CarZ: 0
+--- !u!1 &1920090650 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100042, guid: 0e7ee4df08df88c4880f43398f9ad2c2, type: 2}
+  m_PrefabInternal: {fileID: 1968803830}
 --- !u!1001 &1968803830
 Prefab:
   m_ObjectHideFlags: 0

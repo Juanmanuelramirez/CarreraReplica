@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarreraReplica.Plugins", "CarreraReplica.Plugins.csproj", "{5F5B48E6-9C76-3656-CABE-D09849367805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarreraReplica", "CarreraReplica.csproj", "{C3ADBCA7-340F-701F-878C-3C9C58A1205F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarreraReplica.Editor.Plugins", "CarreraReplica.Editor.Plugins.csproj", "{51431AAE-7312-A7A7-8BB7-76968049A4A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F5B48E6-9C76-3656-CABE-D09849367805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5B48E6-9C76-3656-CABE-D09849367805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5B48E6-9C76-3656-CABE-D09849367805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5B48E6-9C76-3656-CABE-D09849367805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3ADBCA7-340F-701F-878C-3C9C58A1205F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3ADBCA7-340F-701F-878C-3C9C58A1205F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3ADBCA7-340F-701F-878C-3C9C58A1205F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3ADBCA7-340F-701F-878C-3C9C58A1205F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51431AAE-7312-A7A7-8BB7-76968049A4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51431AAE-7312-A7A7-8BB7-76968049A4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51431AAE-7312-A7A7-8BB7-76968049A4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51431AAE-7312-A7A7-8BB7-76968049A4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
