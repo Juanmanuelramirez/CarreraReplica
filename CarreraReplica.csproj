@@ -295,6 +295,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CameraStable.cs" />
+    <Compile Include="Assets\Script\Countdown.cs" />
     <Compile Include="Assets\Script\HalfPointTrigger.cs" />
     <Compile Include="Assets\Script\LapComplete.cs" />
     <Compile Include="Assets\Script\LapTimeManager.cs" />
