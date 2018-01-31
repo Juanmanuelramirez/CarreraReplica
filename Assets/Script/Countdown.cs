@@ -39,6 +39,7 @@ public class Countdown : MonoBehaviour {
 
         
         GoAudio.Play();
+        
         LapTimer.SetActive(true);
         CarControls.SetActive(true);
 

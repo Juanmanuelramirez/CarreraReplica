@@ -7,9 +7,9 @@ public class CameraStable : MonoBehaviour {
     //Creamos el objeto Carro 
     public GameObject TheCar;
 
-    public float CarX;
-    public float CarY;
-    public float CarZ;
+    private float CarX;
+    private float CarY;
+    private float CarZ;
 
 
     // Update is called once per frame

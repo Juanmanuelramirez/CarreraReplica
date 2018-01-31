@@ -259,6 +259,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -294,8 +297,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\CameraChange.cs" />
     <Compile Include="Assets\Script\CameraStable.cs" />
     <Compile Include="Assets\Script\Countdown.cs" />
+    <Compile Include="Assets\Script\Dreamcar01Track.cs" />
     <Compile Include="Assets\Script\HalfPointTrigger.cs" />
     <Compile Include="Assets\Script\LapComplete.cs" />
     <Compile Include="Assets\Script\LapTimeManager.cs" />
